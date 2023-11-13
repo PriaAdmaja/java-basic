@@ -6,7 +6,7 @@ public class App {
         String firstName;
         String lastName;
         String birthPlace;
-        String birthYear;
+        int birthYear;
         String progrLangFav;
 
         System.out.println("Hello!");
@@ -20,7 +20,7 @@ public class App {
         birthPlace = inputData.nextLine();
 
         System.out.print("Birth Year : ");
-        birthYear = inputData.nextLine();
+        birthYear = Integer.parseInt(inputData.nextLine());
 
         System.out.print("Your favorite programming language : ");
         progrLangFav = inputData.nextLine();
