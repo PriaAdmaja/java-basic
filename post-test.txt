@@ -13,4 +13,8 @@
             System.out.println(i);
         }
     }
-7. 
+7. public static namaMethod(String argument) {
+        baris kode yang dijalankan
+    }
+8. NamaClass namaObject = new Constructor();
+    namaObject.namaMethod(parameter);
