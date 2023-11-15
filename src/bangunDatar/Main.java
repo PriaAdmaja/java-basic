@@ -50,8 +50,8 @@ public class Main {
                     RightTriangle rightTriangle = new RightTriangle(base, triangleHeight);
                     System.out.println("==== Results ====");
                     rightTriangle.showShape();
-                    System.out.println("Rectangle perimeter : " + rightTriangle.perimeter());
-                    System.out.println("Rectangle area : " + rightTriangle.area());
+                    System.out.println("Right triangle perimeter : " + rightTriangle.perimeter());
+                    System.out.println("Right triangle area : " + rightTriangle.area());
                     break;
 
                 default:
